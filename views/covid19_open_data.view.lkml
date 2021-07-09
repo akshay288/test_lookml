@@ -14,7 +14,7 @@ view: covid19_open_data {
 
   measure: count {
     type: count
-    drill_fields: [subregion1_name, country_name, locality_name, subregion2_name]
+    drill_fields: [country_name]
   }
 
   measure: new_cases_confirmed {
