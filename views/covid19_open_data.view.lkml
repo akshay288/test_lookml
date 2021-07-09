@@ -3522,4 +3522,9 @@ view: covid19_open_data {
     type: count
     drill_fields: [subregion1_name, country_name, locality_name, subregion2_name]
   }
+
+  measure: new_cases_confirmed {
+    type: sum
+    sql: ${TABLE}.new_confirmed ;;
+  }
 }
